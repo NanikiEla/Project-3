@@ -1,0 +1,28 @@
+.ppContainer{
+    width: 40%;
+    height: 100px;
+    display: flex;
+}
+
+.ppContainer > .ppSmallImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.ppContainer > .ppSmallImg > .img{
+    height: 80px;
+    width: 100px;
+    margin: 8px;
+}
+
+.ppBigImg{
+    padding: 10px;
+}
+
+.ppBigImg > .img{
+    height: 100%;
+    width: 400px;
+}
+

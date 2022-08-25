@@ -1,0 +1,22 @@
+.bbContainer{
+    background-color: whitesmoke;
+    width: 20%;
+    height: 200px;
+    margin: auto 0;
+}
+
+.bbContainer > .qty{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.button{
+    margin: 10px auto;
+    padding: 10px;
+    background-color: white;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    color: turquoise;
+    cursor: pointer;
+}
